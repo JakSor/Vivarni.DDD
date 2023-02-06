@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivarni.DDD.Infrastructure"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivarni.DDD.Core", "src\Vivarni.DDD.Core\Vivarni.DDD.Core.csproj", "{D71D1FBF-86E2-48D7-8532-621FC63076C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vivarni.Example", "Vivarni.Example", "{8E22153C-EC7F-4484-A9C4-DB7BE9495952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vivarni.Example.WebAPI", "Vivarni.DDD.WebAPI\Vivarni.Example.WebAPI.csproj", "{2DBA273E-72C1-4AF8-A8DD-180E40A65639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{D71D1FBF-86E2-48D7-8532-621FC63076C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71D1FBF-86E2-48D7-8532-621FC63076C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71D1FBF-86E2-48D7-8532-621FC63076C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBA273E-72C1-4AF8-A8DD-180E40A65639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBA273E-72C1-4AF8-A8DD-180E40A65639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBA273E-72C1-4AF8-A8DD-180E40A65639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBA273E-72C1-4AF8-A8DD-180E40A65639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DBA273E-72C1-4AF8-A8DD-180E40A65639} = {8E22153C-EC7F-4484-A9C4-DB7BE9495952}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D195989-3704-4AE1-B21B-12D5A768B8A3}
